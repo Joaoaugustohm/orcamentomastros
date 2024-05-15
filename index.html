@@ -16,14 +16,32 @@
       </div>
       <h1>Calculadora de Orçamento de Mastro</h1>
       <form id="form">
-        <label for="TamMastro">Tamanho do Mastro:</label>
-        <input type="number" id="tamanhoMastro" step="0.50" required /><br />
-        <label for="quantMastro">Quantidade de Mastros:</label>
-        <input type="number" id="quantidadeMastro" step="0.50" required /><br />
+        <label for="tamanhomastro1">Tamanho do mastro (cm):</label>
+        <select name="tam1" id="tam1">
+          <option value="0">0</option>
+          <option value="1.10">110</option>
+          <option value="1.30">130</option>
+          <option value="1.50">150</option>
+          <option value="1.70">170</option>
+          <option value="1.90">190</option>
+        </select>
+        <label for="quantMastro1">Quantidade de Mastros:</label>
+        <input type="number" id="quantidadeMastro1" step="1" required /><br />
+        <label for="tamanhomastro2">Tamanho do mastro (cm):</label>
+        <select name="tam2" id="tam2">
+          <option value="0">0</option>
+          <option value="1.10">110</option>
+          <option value="1.30">130</option>
+          <option value="1.50">150</option>
+          <option value="1.70">170</option>
+          <option value="1.90">190</option>
+        </select>
+        <label for="quantMastro2">Quantidade de Mastros:</label>
+        <input type="number" id="quantidadeMastro2" step="1" required /><br />
         <label for="metrosQuadrados">Tamanho da tela de lona:</label>
         <input type="number" id="metrosQuadrados" step="0.50" required /><br />
-        <label for="ponteira">quantidade de ponteiras:</label>
-        <input type="number" id="ponteiras" step="1" required /><br />
+        <label for="ponteira">quantidade de bases:</label>
+        <input type="number" id="bases" step="1" required /><br />
         <label for="margemdelucro">margem de lucro: (%) </label>
         <input type="number" id="margemlucro" step="1" required /><br />
         <p>*obs a media é utilizado de 150</p>
