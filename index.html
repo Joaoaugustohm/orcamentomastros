@@ -26,7 +26,13 @@
           <option value="1.90">190</option>
         </select>
         <label for="quantMastro1">Quantidade de Mastros:</label>
-        <input type="number" id="quantidadeMastro1" step="1" required /><br />
+        <input
+          type="number"
+          id="quantidadeMastro1"
+          step="1"
+          required
+          value="0"
+        /><br />
         <label for="tamanhomastro2">Tamanho do mastro (cm):</label>
         <select name="tam2" id="tam2">
           <option value="0">0</option>
@@ -37,13 +43,31 @@
           <option value="1.90">190</option>
         </select>
         <label for="quantMastro2">Quantidade de Mastros:</label>
-        <input type="number" id="quantidadeMastro2" step="1" required /><br />
+        <input
+          type="number"
+          id="quantidadeMastro2"
+          step="1"
+          required
+          value="0"
+        /><br />
         <label for="metrosQuadrados">Tamanho da vela:</label>
-        <input type="number" id="metrosQuadrados" step="0.50" required /><br />
+        <input
+          type="number"
+          id="metrosQuadrados"
+          step="0.50"
+          required
+          value="0"
+        /><br />
         <label for="ponteira">quantidade de bases:</label>
-        <input type="number" id="bases" step="1" required /><br />
+        <input type="number" id="bases" step="1" required value="0" /><br />
         <label for="margemdelucro">margem de lucro: (%) </label>
-        <input type="number" id="margemlucro" step="1" required /><br />
+        <input
+          type="number"
+          id="margemlucro"
+          step="1"
+          required
+          value="0"
+        /><br />
         <p>*obs a media é utilizado de 150</p>
         <button type="button" onclick="calcularOrcamento()">Calcular</button>
       </form>
