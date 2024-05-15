@@ -8,6 +8,8 @@ function calcularOrcamento() {
   var metrosQuadrados = parseFloat(document.getElementById("metrosQuadrados").value);
   var bases = parseInt(document.getElementById("bases").value);
   var margemlucro = parseFloat(document.getElementById("margemlucro").value);
+  // iniciar as quantidades 
+  var quantidadeponteira = 0; //inciar a quantidade de ponteira
 
   // Defina os preços para cada item
   var precoMastro = 23; // Preço por metro de mastro
@@ -15,7 +17,7 @@ function calcularOrcamento() {
   var precoPonteira = 75; // Preço por ponteira
   var precobase = 190; // Preço por base
   var homemhora = 40; // Preço por hora de mão de obra
-  var quantidadeponteira = 0;
+
 
   // Calculando o total para cada item
   var quantidadeMastro = quantidadeMastro1 + quantidadeMastro2;
