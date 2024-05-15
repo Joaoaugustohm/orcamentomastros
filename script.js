@@ -35,7 +35,7 @@ function calcularOrcamento() {
   var resultado = document.getElementById("resultado");
   resultado.innerHTML = "<h2>Orçamento</h2>" +
     "<p>Total Mastro: R$" + totalMastro.toFixed(2) + "</p>" +
-    "<p>Total Lona: R$" + totalLona.toFixed(2) + "</p>" +
+    "<p>Total Vela: R$" + totalLona.toFixed(2) + "</p>" +
     "<p>Total Ponteiras: R$" + totalponteira.toFixed(2) + "</p>" +
     "<p>Total Bases: R$" + totalbase.toFixed(2) + "</p>" +
     "<p>Total Hora: R$" + totalhora.toFixed(2) + "</p>" +
