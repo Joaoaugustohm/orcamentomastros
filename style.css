@@ -21,20 +21,31 @@ h1 {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  flex-direction: row;
+  text-align: center;
 }
-
+div.cima {
+  margin-bottom: 20px;
+  display: inline-block;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+p.obs {
+  font-size: 11px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
 label {
   font-size: 18px;
   color: #555;
-  margin-bottom: 10px;
 }
+
 select,
 input[type="text"],
 input[type="number"] {
   padding: 10px;
-  margin-bottom: px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -81,6 +92,9 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+footer {
+  margin-top: 30px;
 }
 footer p {
   margin-left: 15px;
