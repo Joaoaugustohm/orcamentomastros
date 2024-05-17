@@ -27,7 +27,7 @@ form {
 }
 div.cima {
   margin-bottom: 20px;
-  display: inline-block;
+  display: block;
   flex-direction: row;
   margin-bottom: 10px;
 }
