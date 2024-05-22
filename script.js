@@ -1,5 +1,6 @@
 
 function calcularOrcamento() {
+  
   // Obtendo os valores dos campos do formulário
   var tamanhoMastro1 = parseFloat(document.getElementById("tam1").value);
   var tamanhoMastro2 = parseFloat(document.getElementById("tam2").value);
@@ -8,6 +9,7 @@ function calcularOrcamento() {
   var metrosQuadrados = parseFloat(document.getElementById("metrosQuadrados").value);
   var bases = parseInt(document.getElementById("bases").value);
   var margemlucro = parseFloat(document.getElementById("margemlucro").value);
+
   // iniciar as quantidades 
   var quantidadeponteira = 0; //inciar a quantidade de ponteira
 
@@ -17,7 +19,6 @@ function calcularOrcamento() {
   var precoPonteira = 75; // Preço por ponteira
   var precobase = 190; // Preço por base
   var homemhora = 40; // Preço por hora de mão de obra
-
 
   // Calculando o total para cada item
   var quantidadeMastro = quantidadeMastro1 + quantidadeMastro2;
