@@ -1,6 +1,6 @@
 
 function calcularOrcamento() {
-  
+
   // Obtendo os valores dos campos do formulário
   var tamanhoMastro1 = parseFloat(document.getElementById("tam1").value);
   var tamanhoMastro2 = parseFloat(document.getElementById("tam2").value);
